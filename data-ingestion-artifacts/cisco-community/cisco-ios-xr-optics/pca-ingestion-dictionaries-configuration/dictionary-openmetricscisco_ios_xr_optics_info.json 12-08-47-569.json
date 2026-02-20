@@ -1,0 +1,202 @@
+{
+    "data": {
+        "attributes": {
+            "_id": "openmetricscisco_ios_xr_optics_info",
+            "_rev": "2-9d02a8fa033d58699fadd23fe5fcad4b",
+            "createdTimestamp": 1741947031110,
+            "customMetrics": null,
+            "dictionaryName": "openmetrics-cisco_ios_xr_optics_info",
+            "dictionaryType": "global",
+            "dimensions": [
+                {
+                    "analyticsName": "monitoredObjectId",
+                    "dataType": "string",
+                    "rawName": "monitoredObjectId"
+                },
+                {
+                    "analyticsName": "monitoredObjectName",
+                    "dataType": "string",
+                    "rawName": "monitoredObjectName"
+                },
+                {
+                    "analyticsName": "timestamp",
+                    "dataType": "long",
+                    "rawName": "timestamp"
+                },
+                {
+                    "analyticsName": "direction",
+                    "dataType": "integer",
+                    "rawName": "direction"
+                },
+                {
+                    "analyticsName": "agentId",
+                    "dataType": "string",
+                    "rawName": "agentId"
+                },
+                {
+                    "analyticsName": "agentName",
+                    "dataType": "string",
+                    "rawName": "agentName"
+                },
+                {
+                    "analyticsName": "agentType",
+                    "dataType": "string",
+                    "rawName": "agentType"
+                },
+                {
+                    "analyticsName": "host",
+                    "dataType": "string",
+                    "rawName": "host"
+                },
+                {
+                    "analyticsName": "name",
+                    "dataType": "string",
+                    "rawName": "name"
+                },
+                {
+                    "analyticsName": "objectType",
+                    "dataType": "string",
+                    "rawName": "objectType"
+                },
+                {
+                    "analyticsName": "path",
+                    "dataType": "string",
+                    "rawName": "path"
+                },
+                {
+                    "analyticsName": "sessionId",
+                    "dataType": "string",
+                    "rawName": "sessionId"
+                },
+                {
+                    "analyticsName": "sessionName",
+                    "dataType": "string",
+                    "rawName": "sessionName"
+                },
+                {
+                    "analyticsName": "source",
+                    "dataType": "string",
+                    "rawName": "source"
+                },
+                {
+                    "analyticsName": "subscription",
+                    "dataType": "string",
+                    "rawName": "subscription"
+                }
+            ],
+            "lastModifiedTimestamp": 1741892295156,
+            "metricType": "timeseries",
+            "metrics": [
+                {
+                    "analyticsName": "AlarmDetected",
+                    "dataType": "double",
+                    "directions": [
+                        "-1"
+                    ],
+                    "rawName": "cisco_ios_xr_optics_info_alarm_detected"
+                },
+                {
+                    "analyticsName": "BaudRate",
+                    "dataType": "double",
+                    "directions": [
+                        "-1"
+                    ],
+                    "rawName": "cisco_ios_xr_optics_info_baud_rate"
+                },
+                {
+                    "analyticsName": "ChromaticDispersion",
+                    "dataType": "double",
+                    "directions": [
+                        "-1"
+                    ],
+                    "rawName": "cisco_ios_xr_optics_info_cd"
+                },
+                {
+                    "analyticsName": "OpticsState",
+                    "dataType": "double",
+                    "directions": [
+                        "-1"
+                    ],
+                    "rawName": "cisco_ios_xr_optics_info_controller_state"
+                },
+                {
+                    "analyticsName": "DwdmCarrierFrequency",
+                    "dataType": "double",
+                    "directions": [
+                        "-1"
+                    ],
+                    "rawName": "cisco_ios_xr_optics_info_dwdm_carrier_frequency"
+                },
+                {
+                    "analyticsName": "DwdmCarrierWavelength",
+                    "dataType": "double",
+                    "directions": [
+                        "-1"
+                    ],
+                    "rawName": "cisco_ios_xr_optics_info_dwdm_carrier_wavelength"
+                },
+                {
+                    "analyticsName": "ReceivePower",
+                    "dataType": "double",
+                    "directions": [
+                        "-1"
+                    ],
+                    "rawName": "cisco_ios_xr_optics_info_lane_data_receive_power",
+                    "sqlExpr": "cast(`cisco_ios_xr_optics_info_lane_data_receive_power` as DOUBLE) / 100",
+                    "unit": "dbm"
+                },
+                {
+                    "analyticsName": "TransmitPower",
+                    "dataType": "double",
+                    "directions": [
+                        "-1"
+                    ],
+                    "rawName": "cisco_ios_xr_optics_info_lane_data_transmit_power",
+                    "sqlExpr": "cast(`cisco_ios_xr_optics_info_lane_data_transmit_power` as DOUBLE) / 100",
+                    "unit": "dbm"
+                },
+                {
+                    "analyticsName": "LaserState",
+                    "dataType": "double",
+                    "directions": [
+                        "-1"
+                    ],
+                    "rawName": "cisco_ios_xr_optics_info_laser_state"
+                },
+                {
+                    "analyticsName": "OSNR",
+                    "dataType": "double",
+                    "directions": [
+                        "-1"
+                    ],
+                    "rawName": "cisco_ios_xr_optics_info_optical_signal_to_noise_ratio"
+                },
+                {
+                    "analyticsName": "Temperature",
+                    "dataType": "double",
+                    "directions": [
+                        "-1"
+                    ],
+                    "rawName": "cisco_ios_xr_optics_info_temperature",
+                    "sqlExpr": "cast(`cisco_ios_xr_optics_info_temperature` as DOUBLE) / 100",
+                    "unit": "deg_c"
+                },
+                {
+                    "analyticsName": "Voltage",
+                    "dataType": "double",
+                    "directions": [
+                        "-1"
+                    ],
+                    "rawName": "cisco_ios_xr_optics_info_voltage",
+                    "unit": "volt"
+                }
+            ],
+            "objectType": "cisco_ios_xr_optics_info",
+            "tenantId": "88cc98ad-70fe-40b5-ba22-13884e04a497",
+            "vendor": "openmetrics"
+        },
+        "id": "openmetricscisco_ios_xr_optics_info",
+        "type": "ingestionDictionaries"
+    },
+    "violations": []
+}

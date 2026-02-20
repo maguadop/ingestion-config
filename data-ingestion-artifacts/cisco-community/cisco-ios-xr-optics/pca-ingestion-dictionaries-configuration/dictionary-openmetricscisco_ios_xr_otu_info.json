@@ -1,0 +1,162 @@
+{
+    "data": {
+        "attributes": {
+            "_id": "openmetricscisco_ios_xr_otu_info",
+            "_rev": "3-ba08bb808f6dcd010bafdf01016c934b",
+            "createdTimestamp": 1741947031130,
+            "customMetrics": null,
+            "dictionaryName": "openmetrics-cisco_ios_xr_otu_info",
+            "dictionaryType": "global",
+            "dimensions": [
+                {
+                    "analyticsName": "monitoredObjectId",
+                    "dataType": "string",
+                    "rawName": "monitoredObjectId"
+                },
+                {
+                    "analyticsName": "monitoredObjectName",
+                    "dataType": "string",
+                    "rawName": "monitoredObjectName"
+                },
+                {
+                    "analyticsName": "timestamp",
+                    "dataType": "long",
+                    "rawName": "timestamp"
+                },
+                {
+                    "analyticsName": "direction",
+                    "dataType": "integer",
+                    "rawName": "direction"
+                },
+                {
+                    "analyticsName": "agentId",
+                    "dataType": "string",
+                    "rawName": "agentId"
+                },
+                {
+                    "analyticsName": "agentName",
+                    "dataType": "string",
+                    "rawName": "agentName"
+                },
+                {
+                    "analyticsName": "agentType",
+                    "dataType": "string",
+                    "rawName": "agentType"
+                },
+                {
+                    "analyticsName": "host",
+                    "dataType": "string",
+                    "rawName": "host"
+                },
+                {
+                    "analyticsName": "name",
+                    "dataType": "string",
+                    "rawName": "name"
+                },
+                {
+                    "analyticsName": "objectType",
+                    "dataType": "string",
+                    "rawName": "objectType"
+                },
+                {
+                    "analyticsName": "path",
+                    "dataType": "string",
+                    "rawName": "path"
+                },
+                {
+                    "analyticsName": "sessionId",
+                    "dataType": "string",
+                    "rawName": "sessionId"
+                },
+                {
+                    "analyticsName": "sessionName",
+                    "dataType": "string",
+                    "rawName": "sessionName"
+                },
+                {
+                    "analyticsName": "source",
+                    "dataType": "string",
+                    "rawName": "source"
+                },
+                {
+                    "analyticsName": "subscription",
+                    "dataType": "string",
+                    "rawName": "subscription"
+                },
+                {
+                    "analyticsName": "controller_name",
+                    "dataType": "string",
+                    "rawName": "controller_name"
+                }
+            ],
+            "lastModifiedTimestamp": 1741947031130,
+            "metricType": "timeseries",
+            "metrics": [
+                {
+                    "analyticsName": "Bandwidth",
+                    "dataType": "double",
+                    "directions": [
+                        "-1"
+                    ],
+                    "rawName": "cisco_ios_xr_otu_info_bandwidth",
+                    "sqlExpr": "cast(`cisco_ios_xr_otu_info_bandwidth` as DOUBLE) * 1000000000",
+                    "unit": "bps"
+                },
+                {
+                    "analyticsName": "PostFecBer",
+                    "dataType": "double",
+                    "directions": [
+                        "-1"
+                    ],
+                    "rawName": "cisco_ios_xr_otu_info_otu_fec_satistics_post_fec_ber"
+                },
+                {
+                    "analyticsName": "PreFecBer",
+                    "dataType": "double",
+                    "directions": [
+                        "-1"
+                    ],
+                    "rawName": "cisco_ios_xr_otu_info_otu_fec_satistics_pre_fec_ber"
+                },
+                {
+                    "analyticsName": "FEC",
+                    "dataType": "double",
+                    "directions": [
+                        "-1"
+                    ],
+                    "rawName": "cisco_ios_xr_otu_info_pre_fec_val"
+                },
+                {
+                    "analyticsName": "QFactor",
+                    "dataType": "double",
+                    "directions": [
+                        "-1"
+                    ],
+                    "rawName": "cisco_ios_xr_otu_info_qfactor"
+                },
+                {
+                    "analyticsName": "QMargin",
+                    "dataType": "double",
+                    "directions": [
+                        "-1"
+                    ],
+                    "rawName": "cisco_ios_xr_otu_info_qmargin"
+                },
+                {
+                    "analyticsName": "ControllerState",
+                    "dataType": "double",
+                    "directions": [
+                        "-1"
+                    ],
+                    "rawName": "cisco_ios_xr_otu_info_state"
+                }
+            ],
+            "objectType": "cisco_ios_xr_otu_info",
+            "tenantId": "88cc98ad-70fe-40b5-ba22-13884e04a497",
+            "vendor": "openmetrics"
+        },
+        "id": "openmetricscisco_ios_xr_otu_info",
+        "type": "ingestionDictionaries"
+    },
+    "violations": []
+}
